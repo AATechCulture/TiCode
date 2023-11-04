@@ -3,6 +3,9 @@ import { createClient } from '@supabase/supabase-js'
 import { SupabaseVectorStore } from 'langchain/vectorstores/supabase'
 import { OpenAIEmbeddings } from 'langchain/embeddings/openai'
 
+import dotenv from 'dotenv';
+
+dotenv.config({path: './config.env'});
 
 // @supabase/supabase-js
 try {
