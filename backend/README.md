@@ -111,6 +111,40 @@ These will have to be provided as an enviroment variable in a production environ
     }
     ```
 
+6. `POST /register`
+
+    **Description**
+
+    Create user in database using user credentials
+
+    **Body**
+
+    ```
+    {
+        "email" : "user@soar.com",
+        "password" : "pass"
+    }
+    ```
+
+7. `POST /login`
+
+    **Description**
+
+    Authenticate user credentials in database and return auth header for api requests
+
+    **Body**
+
+    ```
+    {
+        "email" : "user@soar.com",
+        "password" : "pass"
+    }
+    ```
+
+    **Response**
+
+    
+
 **Cool Things Learnt**
 
 Things learnt along the way
