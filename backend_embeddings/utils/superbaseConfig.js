@@ -7,6 +7,11 @@ import dotenv from 'dotenv';
 
 dotenv.config({path: './config.env'});
 
+/*
+* Only run once to create supabase pgvector of the 
+* knowledge base
+*/
+
 // @supabase/supabase-js
 try {
     const result = await fetch('faq_knowledge_base.txt')
