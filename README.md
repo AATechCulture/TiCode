@@ -13,7 +13,7 @@
 ## Tech Overview 💻
 **SOAR is thrilled to present our Backend API designed to revolutionize the airline customer service in airports.
 This API provides endpoints that are called using the SOAR web app for desktop and mobile.**
-### Key Features:
+### Key Features: Utilized React and Express. Brought to life with teamwork and hard work.
 ##### User Authentication: Securely access the system with user-friendly authentication method via a customer's airline account information. Data and privacy are addressed by using a secure database
 ##### UserConversations: The Knowledge-Enhanced Chat Conversation API is a powerful tool that leverages an airline's knowledge base to significantly enhance the relevance and effectiveness of chatbot interactions. By utilizing advanced vector embeddings, this API empowers developers to create intelligent, context-aware chatbots that can provide accurate and insightful responses to airline customer inquiries.
 ##### UserQueryHistory: provides agents with a comprehensive view of a user's previous queries and a concise summary of their complaints.
