@@ -37,7 +37,7 @@ Jackson State University
 TICODE
 
 ### Link to Video Pitch 📹
-**(https://drive.google.com/file/d/1ivt5jkCDLpxjHzJWeq5JvdXLtlfjadnb/view?usp=drivesdk)**
+**https://drive.google.com/file/d/1ivt5jkCDLpxjHzJWeq5JvdXLtlfjadnb/view?usp=drivesdk**
 
 ### Link to Demo Presentation 📽
 https://docs.google.com/presentation/d/1Yg5SiJG5buUvsJB7khCnCMpa0qdMyUBgVhgEx2fBg6Y/edit?usp=sharing
