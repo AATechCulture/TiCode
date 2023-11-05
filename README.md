@@ -21,6 +21,9 @@ This API provides endpoints that are called using the SOAR web app for desktop a
 
 
 ### ✨ Contributors ✨
+
+*Khadari Johnson (P37KK22)
+=======
 * Khadari Johnson (P37KK22)
 * Khaylah Rose (J00TC76)
 * Devin Brown (A56EA74)

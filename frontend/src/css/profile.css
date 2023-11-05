@@ -151,11 +151,11 @@
         flex-wrap: wrap;
         margin-left: -10%;
         margin-right: 0;
-        transform: scaleX(0.55);
+        transform: scale(0.5);
        height:900px;
 
         transform-origin: top left;
-        margin-top: 40px;
+        margin-top:30%;
 
     }
 

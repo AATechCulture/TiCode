@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:700');
+body {
+    overflow-x: hidden;
+    overflow-y: hidden;
+    /* font-family: Arial, sans-serif; */
+    background-color: #f0f0f0;
+  }
+  
+  .welc_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    -webkit-user-select: none;
+
+  }
+  
+  .welc_container h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+    opacity: 0;
+    color: var(--primaryRed);
+    text-align: center;
+  }
+
+.flip_container p{
+    text-shadow: 0 0 7px rgba(255,255,255,.3), 0 0 3px rgba(255,255,255,.3);
+    font-family:'Roboto' !important;
+
+  }
+  .flip_container {
+    color: #979a9b;
+    font-family:'Roboto' !important;
+    font-size: 2.26rem;
+    text-transform: uppercase;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-left: 130px;
+  }
+
+
+  .fade-in {
+    animation: fadeIn 1s forwards;
+  }
+  
+  
+  @keyframes fadeIn {
+    to {
+      opacity: 1;
+    }
+  }
+  
+  .bounce button{
+    display: inline-block;
+    padding: 12px 20px;
+    margin-top: 30px;
+    background-color: var(--primaryRed);
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    opacity: 1;
+    animation: bounce 1s 1s forwards;
+    border: none;
+
+  }
+  .bounce button:focus{
+    outline: none;
+  }
+  .bounce button:hover{
+    background-color: #f0f0f0;
+    color:var(--primaryRed);
+    border: 2px solid var(--primaryRed) !important;
+  }
+  
+  @keyframes bounce {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-20px);
+    }
+  }
+
+  
+  /* Text Flip animation */
+  .text-slide {
+    text-align: center;
+  }
+  
+  .text-slide>div {
+    display: inline-block;
+    text-align: left;
+    height: 40px;
+    line-height: 40px;
+    overflow: hidden;
+    font-size: 30px;
+  }
+  
+  .text span {
+    display: block;
+    color: #fff;
+    padding: 0 10px;
+  }
+  
+  .text {
+    position: relative;
+    margin-left: 10px;
+    animation: text-animation ease 8s infinite;
+  }
+  
+  @keyframes text-animation {
+    0% {
+      top: 0;
+    }
+  
+    10% {
+      top: 0;
+    }
+  
+    30% {
+      top: -40px;
+    }
+   
+    50% {
+      top: -80px;
+    }
+    80%{
+        top:0px;
+    }
+    100%{
+        top:0px;
+    }
+   
+  }
+  
+  span:nth-child(1) {
+    background-color: #ff4258;
+  }
+  
+  span:nth-child(2) {
+    background-color: #72ff7a;
+  }
+  
+  span:nth-child(3) {
+    background-color: #f0ca4d;
+  }
+  
