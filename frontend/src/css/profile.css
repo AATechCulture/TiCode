@@ -1,0 +1,163 @@
+.profile_container {
+    margin-left: 276px;
+    width: 100%;
+    height: fit-content;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: row;
+    -webkit-user-select: none;
+    flex-wrap: wrap;
+
+}
+
+#pbackground {
+    position: absolute;
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.profile {
+    display: flex;
+    flex-direction: row;
+}
+
+.prof_content {
+    margin-top: 133px;
+    margin-left: 150px;
+    z-index: 1;
+    /* border: 1px solid red; */
+}
+
+.profile h1 {
+    width: 500px;
+    color: #000;
+    text-align: center;
+    font-family: 'myanmar-khyay-regular';
+    font-size: 42px;
+    margin-left: 160px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-bottom: 20px;
+    border-bottom: 5px solid var(--darkBlue);
+}
+
+.prof_col {
+    display: flex;
+    flex-direction: row;
+}
+
+.profile img {
+    transform: scale(0.74);
+    position: absolute;
+}
+
+.coro {
+    margin-top: 40px;
+    width: 237px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+
+}
+
+.cort {
+    width: 237px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.inq {
+    /* margin-left:100px; */
+    font-family: Myanmar Khyay;
+    font-size: 82.158px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.inq_text {
+    font-family: Myanmar Khyay;
+    font-size: 20.779px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.up {
+    font-family: Myanmar Khyay;
+    font-size: 82.158px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.up_text {
+    font-family: Myanmar Khyay;
+    font-size: 20.779px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.prTwo {
+    margin-left: 52px;
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.prTwo p {
+    min-width: 237px;
+    color: #000;
+    text-align: center;
+    font-family: 'myanmar-khyay-regular';
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-bottom: 10px;
+    border-bottom: 5px solid var(--darkBlue);
+}
+
+.prTwo button {
+    border-radius: 70.102px;
+    background: #36495A;
+    color:var(--white);
+    width: 148px;
+    margin-top: 20px;
+    height: 43.065px;
+}
+@media (max-width: 505px) {
+    .profile_container {
+        z-index: 7;
+        width: 100%;
+        margin-left: 0px;
+        overflow-x: hidden;
+        overflow-y: scroll;
+        width: max-content;
+        height: 100vh;
+    }
+    .profile{
+        position: absolute;
+        flex-wrap: wrap;
+        margin-left: 0;
+        transform: scaleX(0.3);
+       
+
+        transform-origin: top left;
+        margin-top: 40px;
+
+    }
+
+
+ }

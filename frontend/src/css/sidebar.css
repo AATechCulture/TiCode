@@ -1,0 +1,85 @@
+/* Import any external CSS here */
+
+@import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
+
+/* Style for the "Toggle Sidebar" button */
+.toggle_btn {
+  position: absolute;
+  top: 10px;
+  left: 70%;
+  background-color: var(--primaryRed);
+  color: #fff;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  z-index: 3; /* Ensure it's above the sidebar */
+  opacity: 0;
+}
+
+#sidebar {
+  -webkit-user-select: none;
+  position: absolute;
+  width: 280px;
+  height: 100vh;
+  background: var(--primaryRed);
+  color: #fff;
+  transform: translateX(0);
+  transition: transform 0.3s;
+  z-index: 20;
+
+}
+
+#sidebar.active {
+  transform: translateX(-280px);
+}
+
+/* Sidebar header styles */
+#sidebar .sidebar-header {
+  display: flex;
+  justify-content: center;
+  background: var(--blue_two);
+}
+
+/* Sidebar navigation links styles */
+#sidebar ul.components {
+  padding: 20px 0px;
+}
+
+#sidebar ul li a {
+  padding: 10px;
+  font-size: 1.1em;
+  display: block;
+  color: #fff;
+  text-decoration: none;
+}
+
+#sidebar ul li a:hover {
+  color: var(--primaryRed) !important;
+  background: var(--grey);
+}
+
+/* Active link styles */
+#sidebar .navLinks a.active {
+  color: var(--primaryRed) !important;
+  background-color: var(--white) !important;
+}
+
+/* Logo styles */
+.soar_logo {
+  width: 246px;
+  height: 107.353px;
+}
+
+/* Other styles specific to your design */
+
+/* Add your other styles here */
+@media (max-width: 500px) {
+    .toggle_btn{
+        opacity: 1;
+        z-index: 3;
+    }
+  /* .soar{
+  transform:scale(0.8);
+transform-origin: top left;
+  } */
+ }
