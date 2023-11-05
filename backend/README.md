@@ -111,6 +111,24 @@ These will have to be provided as an enviroment variable in a production environ
     }
     ```
 
+**Cool Things Learnt**
+
+Things learnt along the way
+
+**How to delete remote and local feature branch to tidy things up?**
+
+    Delete remote feature branch 
+    --> git push origin -d feature [currently on local feature branch]
+
+    Delete local feature branch
+    --> git branch -d feature [currently on main local branch]
+
+[Great Resource](https://www.baeldung.com/git-delete-branch-locally-remotely)
+
+**How to resolve npm dependency hell?**
+
+[Resource](https://sylhare.github.io/2022/02/09/How-to-fix-npm-dependency-library-hell.html)
+
 
 
 
