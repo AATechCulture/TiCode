@@ -1,25 +1,13 @@
-# BE Smart Hack Repo Template
-
-## Description 🚨 
-This is a repository template containing all the information that needs to accompany your project.
-
-Feel free to use any languages or frameworks, but the following information must be filled out before hacking ends.
-___________
-# Project Name
+# SOAR
 
 ## Challenge Statement(s) Addressed 🎯
-**...include the challenge statement(s) the project worked to address**
-
-Examples:
-* How might we decrease the United States chances of alien and monster attacks given what we know from popular alien and monster movies?
-* How might we make it possible for people in cities not to have to own a car by making car-sharing easier so that the environment will be less damaged and people can save money?
-* How might we ....
+**How might we build an application that will help the airline industry**
 
 ## Project Description 🤯
-**....at lease 3 sentences describing what the project does and how it works**
+**SOAR is a travel assistant application designed to elevate your journey in the airline industry. Using the power of real-time data and personalized insights, SOAR empowers travelers with confidence and convenience. It streamlines the airport experience, from check-in to post-flight assistance, reducing queues, offering clarity, and providing crucial support during unexpected circumstances. SOAR is your passport to smoother, stress-free travel.**
 
 ## Project Value 💰
-**....at lease 3 sentences describing your target customer and tangible benefits from your solution**
+**Our target customers include both frequent and occasional travelers, families, and business professionals who value an efficient, hassle-free process. With our solution, they gain tangible benefits such as reduced wait times, clearer communication at airports, and expert guidance during unexpected disruptions. SOAR not only enhances the travel experience but also ensures accessibility and peace of mind for our diverse set of customers.**
 
 
 ## Tech Overview 💻
@@ -32,22 +20,23 @@ Example:
 
 
 ### ✨ Contributors ✨
-**...tell the world who you and your team are 🙂**
-* Team member X (AAdvantage No)
-* Team member Y (AAdvantage No)
-* Team member Z (AAdvantage No)
+*Khadari Johnson (P37KK22)
+* Khaylah Rose (AAdvantage No)
+* Devin Brown (A56EA74)
+* Mahlangu Nzunda
+* Brandon Newton (A1UU874)
 
 ### School Name 🏫
-The ABC School
+Jackson State University
 
 ### Team Name 🏷
-Coding Costars
+TICODE
 
 ### Link to Video Pitch 📹
 **...point us to where you tell us about your solution 😄**
 
 ### Link to Demo Presentation 📽
-**...point us to your PPT or Canva slides 😍**
+https://docs.google.com/presentation/d/1Yg5SiJG5buUvsJB7khCnCMpa0qdMyUBgVhgEx2fBg6Y/edit?usp=sharing
 
 ### Team Checklist due before 5p Saturday 11/4 ✅
 - [x] Team photo
@@ -61,9 +50,3 @@ Coding Costars
 - [ ] Presentation complete and linked
 - [ ] Video pitch recorded and linked
 - [ ] Code merged to main branch
-
-### Sample Checklist for Syntax Example 
-- [ ] Presentation complete and linked
-- [ ] Video pitch recorded and linked
-- [ ] Code merged to main branch
-
