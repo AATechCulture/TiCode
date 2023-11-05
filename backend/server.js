@@ -1,4 +1,6 @@
 const mongoose = require("mongoose");
+const bcrypt = require('bcryptjs');
+const jwt = require('jsonwebtoken');
 const express = require('express');
 const bodyParser = require('body-parser');
 const askCustomerQuery = require("./chatBotConversation");
@@ -183,6 +185,61 @@ app.get('/test', async (req, res) => {
         db_conn_message: monCon,
         chat_response: answer
     });
+});
+
+
+/*
+* User registration and authentication route
+*/
+
+const userSchema = new mongoose.Schema({
+    email: { type: String, unique: true, required: true },
+    password: { type: String, required: true },
+});
+
+const User = mongoose.model('User', userSchema);
+
+// User Registration Endpoint
+app.post('/register', async (req, res) => {
+    try {
+        const hashedPassword = await bcrypt.hash(req.body.password, 8);
+        const user = new User({
+            email: req.body.email,
+            password: hashedPassword,
+        });
+        await user.save();
+        res.status(201).json({
+            success: true, 
+            message: "User created successfully" 
+        });
+    } catch (error) {
+        res.status(400).json({
+            success: false,
+            message: error
+        });
+    }
+});
+
+// User Login Endpoint
+app.post('/login', async (req, res) => {
+    try {
+        const user = await User.findOne({ email: req.body.email });
+        if (!user) {
+            return res.status(404).send({ error: "User not found" });
+        }
+        const isMatch = await bcrypt.compare(req.body.password, user.password);
+        if (!isMatch) {
+            return res.status(400).send({ error: "Invalid credentials" });
+        }
+        const token = jwt.sign({ id: user._id }, "your_jwt_secret");
+
+        res.header('auth-token', token);
+        res.status(200).json({ 
+            success: true,
+            token: token 
+        });
+    } catch (error) { 
+    }
 });
 
 
