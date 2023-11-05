@@ -156,12 +156,21 @@
     /* margin-left: 80%; */
    }
    .speech_text{
-    height: 150px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-y: auto;
     /* border: 1px solid black; */
     width: 320px;
     padding:15px;
    }
-   
+   .speech_text ul{
+    list-style: none;
+    color: var(--darkBlue);
+    font-size: 20px;
+
+   }
 
 
 .listening_button {
@@ -276,6 +285,12 @@ margin-left: 190px;
         width: max-content;
         height:100px;
     }
+    #dbbackground {
+      position: absolute;
+      object-fit: cover;
+      height: 100%;
+      width: 100%;
+  }
     .soar{
         position: absolute;
         margin-left: 50%;
@@ -289,8 +304,8 @@ margin-left: 190px;
         margin-left: 49%;
         margin-right: 49%;
         transform: translate(-50%, -50%);
-        
         margin-top: 640px;
+        padding-bottom: 20px;
     }
 
  }
