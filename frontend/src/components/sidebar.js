@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { useLocation } from 'react-router-dom';
 import $ from "jquery";
-
+import { useEffect } from 'react';
 import '../css/sidebar.css';
 import '../css/variables.css';
 import soar_logo from '../images/soar.png';
@@ -11,7 +11,10 @@ const Sidebar = () => {
   //var contain  = $(".dashboard_container")
 
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
-
+  // Open the sidebar by default when the component mounts
+  // useEffect(() => {
+  //   setIsSidebarOpen(true);
+  // }, []);
   const toggleSidebar = () => {
     setIsSidebarOpen(!isSidebarOpen);
     // if(isSidebarOpen){

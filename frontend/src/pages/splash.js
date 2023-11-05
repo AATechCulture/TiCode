@@ -9,6 +9,7 @@ const Splash = () => {
         // Use the `navigate` function to redirect to the desired page
         navigate('/Dashboard'); // Replace '/Dashboard' with the path to your target page
       };
+      
     return (
         <div>
             <div className="welc_container">
