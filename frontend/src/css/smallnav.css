@@ -1,0 +1,58 @@
+.main_navbar {
+    background-color: var(--white);
+    /* border: solid 3px var(--bluePrime); */
+    border-radius: 0px 0px 0px 20.21px;
+    width: 863px;
+    height: 120px;
+    margin-left: 114.19px;
+    -webkit-user-select: none;
+    opacity: 0;
+}
+
+.nav_logo {
+    width: 100%;
+    height:auto;
+}
+
+.nav_text a{
+    color: #000;
+    font-family: 'Oswald', sans-serif;
+    font-size: 14.147px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 26.274px;
+    /* 185.714% */
+    letter-spacing: 4.042px;
+    text-transform: uppercase;
+}
+.nav_text_active{
+    color:#F24B4B !important;
+}
+
+.navbar-light .navbar-toggler-icon{
+    /* background-image: url('../imgs/navlineblue.png'); */
+}
+/* Customize the width when collapsed for screens smaller than 768px */
+@media (max-width: 768px) {
+    .main_navbar {
+      width: 100%; /* Adjust the width as needed */
+      height:5%;
+      margin-left: 0px;
+      border-radius: 0px;
+    }
+    .container{
+        display: flex;
+        /* flex-direction: column; */
+    }
+    .nav_logo {
+        width: 70%;
+        /* border: 1px solid #000; */
+        margin-left: -35%;
+    }
+    
+  }
+  @media (max-width: 500px) {
+    .main_navbar{
+        opacity: 1;
+    }
+ }
