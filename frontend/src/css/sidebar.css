@@ -74,6 +74,9 @@
 
 /* Add your other styles here */
 @media (max-width: 500px) {
+    body{
+        overflow-y:visible !important;
+    }
     .toggle_btn{
         opacity: 1;
         z-index: 3;

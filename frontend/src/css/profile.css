@@ -145,14 +145,14 @@
         overflow-x: hidden;
         overflow-y: scroll;
         width: max-content;
-        height: 100vh;
     }
     .profile{
         position: absolute;
         flex-wrap: wrap;
-        margin-left: 0;
-        transform: scaleX(0.3);
-       
+        margin-left: -10%;
+        margin-right: 0;
+        transform: scaleX(0.55);
+       height:900px;
 
         transform-origin: top left;
         margin-top: 40px;
