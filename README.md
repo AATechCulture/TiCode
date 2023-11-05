@@ -21,9 +21,9 @@ Example:
 
 ### ✨ Contributors ✨
 *Khadari Johnson (P37KK22)
-* Khaylah Rose (AAdvantage No)
+* Khaylah Rose (J00TC76)
 * Devin Brown (A56EA74)
-* Mahlangu Nzunda
+* Mahlangu Nzunda (U90ER16)
 * Brandon Newton (A1UU874)
 
 ### School Name 🏫
