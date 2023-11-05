@@ -40,7 +40,7 @@ TICODE
 **https://drive.google.com/file/d/1ivt5jkCDLpxjHzJWeq5JvdXLtlfjadnb/view?usp=drivesdk**
 
 ### Link to Demo Presentation 📽
-https://docs.google.com/presentation/d/1Yg5SiJG5buUvsJB7khCnCMpa0qdMyUBgVhgEx2fBg6Y/edit?usp=sharing
+**https://drive.google.com/file/d/15qV0DWkoR3a77bPDVehKtFH8WG_hcSF7/view?usp=drivesdk**
 
 ### Team Checklist due before 5p Saturday 11/4 ✅
 - [x] Team photo
