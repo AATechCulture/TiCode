@@ -3,7 +3,7 @@ body {
     overflow-x: hidden;
     overflow-y: hidden;
     /* font-family: Arial, sans-serif; */
-    background-color: #f0f0f0;
+    background-color: var(--grey);
   }
   
   .welc_container {
@@ -16,7 +16,13 @@ body {
     -webkit-user-select: none;
 
   }
-  
+  .welc_container img{
+    width: 100vw;
+    height: 100vh;
+    opacity: 0.5;
+    object-fit: cover;
+    position: absolute;
+  }
   .welc_container h1 {
     font-size: 48px;
     margin-bottom: 20px;

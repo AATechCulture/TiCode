@@ -2,7 +2,7 @@ import React from 'react';
 import { useNavigate } from 'react-router-dom';
 //css
 import '../css/splash.css'
-
+import planeGif from '../images/planegif.gif'
 const Splash = () => {
     const navigate = useNavigate();
     const handleButtonClick = () => {
@@ -12,6 +12,7 @@ const Splash = () => {
     return (
         <div>
             <div className="welc_container">
+            <img src={planeGif} alt="" />
                 <h1 className="fade-in">Skip Lines And Save Time With SOAR</h1>
                 <div className="text-slide">
                     <div>SOAR WILL </div>
