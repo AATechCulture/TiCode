@@ -87,10 +87,8 @@ transform-origin: top left;
   } */
  }
  @media (min-width: 510px) {
-  #sidebar {
-  
-   margin-left: 280px;
-
-  
+  #sidebar.active {
+    transform: translateX(0px);
   }
+  
 }
